@@ -10,12 +10,17 @@ spring:
       url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: 123456
+  redis:
+    host: 192.168.48.129
+    port: 6379
+    database: 0
+    connect-timeout: 10000
   mail:
     username: 1077803190@qq.com
     password: xzqrihthsxiiigaj
     host: smtp.qq.com
     default-encoding: utf-8
-    
+
 
 mybatis-plus:
   configuration:
